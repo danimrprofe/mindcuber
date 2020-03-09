@@ -307,7 +307,7 @@ bool check_cube_detect() {
     cd_time  = CurrentTick();
     cd_count = 0;
         TextOut(0, LCD_LINE7, "Aquí SI llega..");
-    SetSensorUltrasonic(S_ULTRA);
+    SetSensorUltrasonic(S2);
         TextOut(0, LCD_LINE7, "Aqui no llega..");
     ResetSensor(S_ULTRA);
 
